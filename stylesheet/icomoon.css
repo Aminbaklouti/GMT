@@ -28,24 +28,47 @@
 .icon-add:before {
   content: "\e900";
 }
+
+.icon-merch:before {
+  content: url('../fonts/icons/merch.png');
+}
+
+.icon-train:before {
+  content: url('../fonts/icons/train.png');
+}
+
+.icon-distr:before {
+  content: url('../fonts/icons/distr.png');
+}
+
+.icon-promo:before {
+  content: url('../fonts/icons/promo.png');
+}
+
+.icon-brand:before {
+  content: url('../fonts/icons/brand.png');
+}
+
+.icon-gift:before {
+  content: url('../fonts/icons/gift.png');
+}
+
+.icon-survey:before {
+  content: url('../fonts/icons/survey.png');
+}
+
 .icon-analysis:before {
   content: "\e901";
 }
+
 .icon-bullhorn:before {
   content: "\e902";
 }
-.icon-left-arrow-1:before {
-  content: "\e903";
-}
+
 .icon-light-bulb:before {
   content: "\e904";
 }
-.icon-play-button:before {
-  content: "\e905";
-}
-.icon-right-arrow:before {
-  content: "\e906";
-}
+
 .icon-startup:before {
   content: "\e907";
 }
