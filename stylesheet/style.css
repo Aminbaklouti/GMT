@@ -769,7 +769,7 @@ h6 {
             opacity: 1;
             transition: all 0.5s ease;
             transform: rotate(135deg);
-            clip: rect(0px, 70px, 50px, 0px); }
+            clip: rect(0px, 0px, 0px, 0px); }
       .section-services .services-main .services-list-main .owl-dots {
         display: none; }
     .section-services .services-main .services-control {
