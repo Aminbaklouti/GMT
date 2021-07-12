@@ -1825,7 +1825,7 @@ section.tf-section.section-team.style-2.s1 {
   padding: 50px 0px;
 }
 .section-partner .partners img {
-  opacity: 0.2;
+  opacity: 1;
   transition: all 500ms ease;
 }
 .section-partner .partners img:hover {
