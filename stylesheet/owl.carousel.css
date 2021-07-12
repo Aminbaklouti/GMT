@@ -181,3 +181,6 @@
 .sub-title{
   font-weight: 540;
 }
+.owl-nav.disabled{
+  visibility: hidden;
+}

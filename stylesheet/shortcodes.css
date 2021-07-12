@@ -388,14 +388,17 @@ span.flus-icon::after {
 /* ====================== [Start Text Animation] ====================== */
 
 span,
-a,
 a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+a{
     display: inline-block;
     text-decoration: none;
     color: inherit;
     font-size: 20px;
 }
-
 span.color {
     color: #edc92a;
 }
