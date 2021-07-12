@@ -184,3 +184,6 @@
 .owl-nav.disabled{
   visibility: hidden;
 }
+.bold{
+  font-weight: bold;
+}
