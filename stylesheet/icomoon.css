@@ -45,6 +45,10 @@
   content: url('../fonts/icons/promo.png');
 }
 
+.icon-analy:before {
+  content: url('../fonts/icons/analy.png');
+}
+
 .icon-brand:before {
   content: url('../fonts/icons/brand.png');
 }
@@ -71,4 +75,8 @@
 
 .icon-startup:before {
   content: "\e907";
+}
+
+.icon-play-button:before {
+  content: "\e905";
 }

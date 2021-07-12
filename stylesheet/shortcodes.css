@@ -161,7 +161,6 @@
 }
 
 .btn-action span.more::before {
-    content: '';
     width: 9px;
     height: 3px;
     position: absolute;
@@ -171,7 +170,6 @@
 }
 
 .btn-action span.more::after {
-    content: '';
     width: 3px;
     height: 9px;
     position: absolute;
