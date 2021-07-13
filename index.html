@@ -441,111 +441,79 @@
         <!-- end -->
 
         <!-- Section Faqs -->
-        <section class="work-porcess-area section">
-            <div class="container" >
+        <!-- in a wrapping section include different containers for each step of the flow: data sources, build, deploy -->
+<section class="container-pro">
 
-
-        <div class="section-header">
-          
-                            <h2>My Work Process</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing.</p>
+    <!-- in the sources container show three cards, side by side, or one atop the other on smaller viewports -->
+    <div class="container__sources">
+  
+      <div class="sources--cms">
+        <img src="/images/process/1.jpg">
+      </div>
+  
+      <div class="sources--markdown">
+        <img src="/images/process/3.png">
+      </div>
+  
+  
+    </div>
+  
+    <!-- include a simple line to divide the container, and animate it to show a connection between the different containers  -->
+    <svg viewbox="0 0 10 100">
+      <line x1="5" x2="5" y1="0" y2="100"/>
+    </svg>
+    
+    <div class="container__sources container__field">
+  
+        <div class="sources--cms">
+          <h3>FF</h3>
         </div>
-                <div class="process-info" style="display: flex;flex-direction: row-reverse; justify-content: space-between; align-items: center;">
-                    <div class="row">
-                        <div class="col-md-3">
-                                <h4 style="font-size: 40px;">POS</h4>
-                            <div class="col-md-3">
-                                <div class="single-process first text-center" style="">
-                                    <img class="pic" src="/images/process/1.jpg">
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-3" style="padding-top: 200%;">
-                                <div class="single-process first text-center arrow-up">
-                                    <img src="/images/process/2.png">
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="padding-top: 0px;">
-                        <div class="col-md-3">
-                            <h4 style="font-size: 40px; width: max-content;">GMT Field Force</h4>
-                            <div class="single-process first text-center arrow-before">
-                                <h4 style="font-size: 40px;">FF</h4>
-                            </div>
-                            
-                            <div class="col-md-3" style="padding-top: 15px;">
-                                <div class="single-process first text-center arrow-before">
-                                    <h4 style="font-size: 40px;">FF</h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3" style="padding-top: 15px;">
-                                <div class="single-process first text-center arrow-before">
-                                    <h4 style="font-size: 40px;">FF</h4>
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-3" style="padding-top: 15px;">
-                                <div class="single-process first text-center arrow-before">
-                                    <h4 style="font-size: 40px;">FF</h4>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="single-process first text-center arrow-before">
-                                <i class="fas icon-logo"></i>
-                                <h4 style="font-size: 20px;">GMT Agency</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h4 style="font-size: 40px;">Accepted</h4>
-                            <div class="single-process first text-center arrow-before">
-                                <h4 style="font-size: 20px;">BRAND Office​ <br> RHQ </h4>
-                            </div>
-                            <div class="col-md-3" style="padding-top: 200%;" >
-                                <div class="single-process first text-center arrow-before arrow-down">
-                                    <h4 style="font-size: 20px; padding-top: 15px;">Distributor​</h4>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="process-info" style="display: flex;flex-direction: row-reverse; justify-content: space-between; align-items: center; padding-top: 8%;">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="single-process first text-center arrow-before-b">
-                                <h4 style="font-size: 20px;">Action Taken!!! <br> & <br> Daily Improvement </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 " style="width: max-content; text-align: center;">
-                            <div class="single-process first text-center arrow-before-c">
-                                <h4 style="font-size: 20px;">Feedback​ <br> & <br> Action Order </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
+        <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
+          <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
+          <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
+    
+      </div>
+
+      <svg viewbox="0 0 10 100">
+        <line x1="5" x2="5" y1="0" y2="100"/>
+      </svg>
+  
+    <!-- in the build container show two cards, atop of one another and the first of one showing an SVG icon -->
+    <div class="container__build">
+  
+      <div class="build--powered">
+        <img src="/images/logo/faicon.png">
+        <h3>GMT Agency</h3>
+      </div>
+  
+    </div>
+
+
+  
+    <!-- repeat the svg line to connect the second and third containers as well -->
+    <svg viewbox="0 0 10 100">
+      <line x1="5" x2="5" y1="0" y2="100"/>
+    </svg>
+
+    <div class="container__sources container__accepted">
+  
+        <div class="sources--cms">
+          <h3>Brand Office RHQ</h3>
+        </div>
+        <div class="sources--cms">
+            <h3>Distributor</h3>
+          </div>    
+      </div>
+  
+  </section>
         <!-- End -->
 
         <!-- Section Counter -->
