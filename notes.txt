@@ -1,18 +1,72 @@
-<section class="tf-section section-partner">
-            <div class="container">
-                <div class="partners">
-                    <div class="banners-z">
-                        <div class="flat-carousel-box data-effect clearfix" data-zero="0" data-gap="70" data-column="6" data-column2="5" data-column3="4" data-column4="2" data-dots="false" data-auto="true" data-nav="false" data-loop="true">
-                            <div class="owl-carousel owl-loaded owl-drag">
-                                
-                                
-                                
-                                
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1240px, 0px, 0px); transition: all 0s ease 0s; width: 3721px;"><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item active" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div><div class="owl-item cloned" style="width: 136.667px; margin-right: 70px;"><img src="images/partner/4.png" alt="images"></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="container-pro">
+
+    <!-- in the sources container show three cards, side by side, or one atop the other on smaller viewports -->
+    <div class="container__sources">
+  
+      <div class="sources--cms">
+        <img src="images/process/1.jpg">
+      </div>
+  
+      <div class="sources--markdown">
+        <img src="images/process/3.png">
+      </div>
+  
+  
+    </div>
+  
+    <!-- include a simple line to divide the container, and animate it to show a connection between the different containers  -->
+    <svg viewbox="0 0 10 100">
+      <line x1="5" x2="5" y1="0" y2="100"/>
+    </svg>
+    
+    <div class="container__sources container__field">
+  
+        <div class="sources--cms">
+          <h3>FF</h3>
+        </div>
+        <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
+          <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
+          <div class="sources--cms">
+            <h3>FF</h3>
+          </div>
+
+    
+    
+      </div>
+
+      <svg viewbox="0 0 10 100">
+        <line x1="5" x2="5" y1="0" y2="100"/>
+      </svg>
+  
+    <!-- in the build container show two cards, atop of one another and the first of one showing an SVG icon -->
+    <div class="container__build">
+  
+      <div class="build--powered">
+        <img src="images/logo/faicon.png">
+        <h3>GMT Agency</h3>
+      </div>
+  
+    </div>
+
+
+  
+    <!-- repeat the svg line to connect the second and third containers as well -->
+    <svg viewbox="0 0 10 100">
+      <line x1="5" x2="5" y1="0" y2="100"/>
+    </svg>
+
+    <div class="container__sources container__accepted">
+  
+        <div class="sources--cms">
+          <h3>Brand Office RHQ</h3>
+        </div>
+        <div class="sources--cms">
+            <h3>Distributor</h3>
+          </div>    
+      </div>
+  
+  </section> 
