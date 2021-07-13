@@ -80,3 +80,7 @@
 .icon-play-button:before {
   content: "\e905";
 }
+
+.icon-logo:before {
+  content: url('../images/logo/faicon.png');
+}
