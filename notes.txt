@@ -71,3 +71,85 @@
   
   </section> 
 
+<header class="header" id="site-header">
+            <div class="container">
+                <div class="main-header" id="site-header-inner">
+                    <!-- logo -->
+                    <div class="main-header-logo" id="site-logo">
+                        <a href="index.html">
+                            <img src="images/logo/logo.png" alt="Hamela" width="150" height="70" data-retina="images/logo/logo@2x.png" data-width="91" data-height="40">
+                        </a>
+                    </div>
+                    <!-- main header -->
+                    <div class="main-nav-header">
+                        <div class="header-top">
+                            <div class="slogan">
+                                <h4 class="text-slogan">Everything you need to grow your business.</h4>
+                            </div>
+                            <ul class="list-social">
+                                <li><a href="https://www.linkedin.com/company/get-market-today"><i class="fab fa-linkedin-square"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mobile-button">
+                            <span></span>
+                        </div>
+                        <div class="tf-nav" style="width: max-content;">
+                            <nav id="main-nav" class="main-nav">
+                                <ul id="menu-primary-menu" class="menu">
+                                    <li class="menu-item menu-item-has-children ">
+                                        <a class="menu-main" href="index.html">Home</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="menu-main" href="work.html">How We Work</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="menu-main" href="about.html">About Us </a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="menu-main" href="services.html">Services <i class="icofont-thin-down" aria-hidden="true"></i></a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item current-item">
+                                                <a href="merchandising.html">Merchandising</a>
+                                            </li>
+                                            <li class="menu-item current-item">
+                                                <a href="branding.html">Branding</a>
+                                            </li>
+                                            <li class="menu-item current-item">
+                                                <a href="distribution.html">Distribution</a>
+                                            </li>
+                                            <li class="menu-item current-item">
+                                                <a href="promoters.html">Promoters</a>
+                                            </li>
+                                            <li class="menu-item current-item">
+                                                <a href="audit.html">Audit Surveys</a>
+                                            </li>
+                                            <li class="menu-item current-item">
+                                                <a href="analysis.html">Analysis</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="loyalty.html">Loyalty Programs</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="training.html">Training</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="menu-main" href="testimonials.html">Testimonials</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a class="menu-main" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                    <div class="btn-header wow fadeInRight" data-wow-delay="800ms">
+                        <a style="padding-right: 36px;" href="#" class="btn-action">
+                            <span class="more">GMT Eye</span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
